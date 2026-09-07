@@ -128,17 +128,6 @@ Built a Slack application end-to-end with one other developer. Owned the Python 
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=ottozuniga&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" />
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ottozuniga&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
-
-</div>
-
----
-
 <div align="center">
 
 ### Understand first. Design with intention. Build to last.
