@@ -2,9 +2,9 @@
 
 # Otto Zúñiga
 
-### Full-Stack Engineer · Lead Software Engineer
+### Lead Software Engineer · Full-Stack Engineer
 
-**Building and scaling production systems · Python · TypeScript · AWS**
+**Building and scaling production systems · Python · React · TypeScript · AWS**
 
 📍 Esparza, Puntarenas, Costa Rica &nbsp;·&nbsp; 🌎 Remote worldwide &nbsp;·&nbsp; 🗣️ Spanish (native) / English (fluent)
 
@@ -24,21 +24,21 @@
 
 ## About
 
-I build backend systems that have to keep running — integration platforms, async pipelines, multi-tenant SaaS — and I've been hands-on in the code every year of it.
+Most of my work is backend: integration platforms, async job pipelines, and multi-tenant SaaS. The kind of systems that run all day, every day, where a quiet failure costs a customer real money. I've stayed hands-on in the code every year of my career.
 
-For six and a half years I led the Compliance Data Integrations team at **Thoropass**, growing it from a handful of connections into a platform serving **180+ integrations and 10,000+ customer connection accounts, syncing daily with zero-downtime operations**. Getting there meant real architecture work: Celery and RabbitMQ with dedicated queues per workload, tuned concurrency, message prioritization, throttling, retries, and bulk operations — plus the observability to know when any of it drifted.
+For six and a half years I led the Compliance Data Integrations team at Thoropass. We started with a handful of customer connections and grew into a platform running **180+ integrations and over 10,000 customer connection accounts**, syncing daily with zero downtime. Getting there took real architecture work: Celery and RabbitMQ with dedicated queues per workload, tuned concurrency, message prioritization, throttling, retries, and bulk operations, plus enough observability to catch it when something drifted.
 
-My depth is **Python/Django** on the backend and **React/Next.js + TypeScript** on the frontend, on **AWS** and **PostgreSQL**. I care a lot about the parts that aren't glamorous: test coverage, code standards, security, and data isolation done properly.
+My depth is **Python and Django** on the backend, **React, Next.js and TypeScript** on the frontend, running on **AWS** and **PostgreSQL**. I care about the parts that aren't glamorous: test coverage, code standards, security, and doing data isolation properly.
 
-I've spent most of my career at startups as they scaled — taking technical ownership of the hardest parts of the system, setting the standards the team builds to, and mentoring the engineers around me, while still writing code every day.
+I've spent most of my career at startups while they scaled. I like owning the hardest parts of a system, setting the standards the team builds to, and mentoring the engineers around me, while still writing code every day.
 
 ---
 
 ## What I'm building
 
-**Goki** (formerly GestionCR) — a multi-tenant ERP and payroll SaaS for small businesses, built end-to-end from database to deployment. Django + DRF with JWT auth and OpenAPI docs, PostgreSQL with Row-Level Security for tenant isolation, Celery + Celery Beat for scheduled and async work, Redis caching, Docker/Nginx/Gunicorn on AWS. Frontend is Next.js 15 (App Router) with TypeScript, MUI and Tailwind. Tested with pytest and Playwright, shipped through GitHub Actions.
+**Goki** (formerly GestionCR) is a multi-tenant ERP and payroll SaaS for small businesses. I built it end to end, from database to deployment. Django and DRF with JWT auth and OpenAPI docs, PostgreSQL with Row-Level Security for tenant isolation, Celery and Celery Beat for scheduled and async work, Redis caching, and Docker, Nginx and Gunicorn on AWS. The frontend is Next.js 15 with the App Router, TypeScript, MUI and Tailwind. Tested with pytest and Playwright, shipped through GitHub Actions.
 
-**Hooky** — a Slack application built with one other developer as a two-person startup. I owned the Python backend and every flow that touched the Slack API.
+**Hooky** was a Slack application I built with one other developer at a two-person startup. I owned the Python backend and every flow that connected through the Slack API.
 
 ---
 
@@ -89,7 +89,6 @@ I've spent most of my career at startups as they scaled — taking technical own
 
 ![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_Servers-FastMCP-1F2937?style=for-the-badge)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Spec-Driven Development](https://img.shields.io/badge/Spec--Driven_Development-4B5563?style=for-the-badge)
 
 **Testing & Quality**
@@ -103,25 +102,25 @@ I've spent most of my career at startups as they scaled — taking technical own
 
 ## Selected Experience
 
-**Lead Software Engineer — [Thoropass](https://thoropass.com)** · Remote (New York City) · 2020 – 2026
+**Lead Software Engineer, Thoropass** · Remote (New York City) · 2020 - 2026
 
-Led the Compliance Data Integrations team. Designed and scaled the integration platform to 180+ integrations and 10,000+ customer connection accounts running daily on Celery + RabbitMQ. Set the platform's technical direction and established the development standards, CI/CD pipelines and code review practices the team worked to, as a hands-on full-stack contributor throughout. Led the team's AI modernization: an intelligent database monitoring system for error detection and remediation, and custom MCP servers that let AI assistants pull customer audit information directly.
+Led the Compliance Data Integrations team. Designed and scaled the integration platform to 180+ integrations and over 10,000 customer connection accounts running daily on Celery and RabbitMQ. Set the platform's technical direction and established the development standards, CI/CD pipelines and code review practices the team worked to, staying a hands-on full-stack contributor throughout. Led the team's AI modernization: an intelligent database monitoring system for error detection and remediation, and custom MCP servers that let AI assistants pull customer audit information directly.
 
-**Team Leader & Senior Software Developer — Snap Technology, SRL** · Alajuela, Costa Rica · 2015 – 2020
+**Team Leader and Senior Software Developer, Snap Technology, SRL** · Alajuela, Costa Rica · 2015 - 2020
 
-Led full-stack development across multiple projects in Java, React and Node.js. Most recently on the merchant platform — owning the API surface for the web application, running external penetration testing, and building out logging and monitoring. Defined technical strategy, enforced code quality standards, and mentored junior engineers.
+Led full-stack development across multiple projects in Java, React and Node.js. My last project was the merchant platform, where I owned the API surface for the web application, ran external penetration testing, and built out logging and monitoring. Defined technical strategy, enforced code quality standards, and mentored junior engineers.
 
-**Backend Developer — Hooky** · Two-person startup
+**Backend Developer, Hooky** · Two-person startup
 
-Built a Slack application end-to-end with one other developer. Owned the Python backend and every feature and flow connecting through the Slack API.
+Built a Slack application end to end with one other developer. Owned the Python backend and every feature and flow connecting through the Slack API.
 
 ---
 
 ## Education & Certifications
 
-- **B.Sc. Computer Engineering** — 2004 – 2008
-- **Advanced Degree, Software Development** — software engineering methodologies and architecture
-- **Oracle Certified Associate, Java SE 8 Programmer** — 2020
+- **B.Sc. Computer Engineering**, 2004 - 2008
+- **Advanced Degree, Software Development**, focused on software engineering methodologies and architecture
+- **Oracle Certified Associate, Java SE 8 Programmer**, 2020
 
 ---
 
