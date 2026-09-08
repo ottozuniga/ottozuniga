@@ -4,7 +4,7 @@
 
 ### Full-Stack Engineer · Lead Software Engineer
 
-**16+ years building and scaling production systems · Python · TypeScript · AWS**
+**Building and scaling production systems · Python · TypeScript · AWS**
 
 📍 Esparza, Puntarenas, Costa Rica &nbsp;·&nbsp; 🌎 Remote worldwide &nbsp;·&nbsp; 🗣️ Spanish (native) / English (fluent)
 
