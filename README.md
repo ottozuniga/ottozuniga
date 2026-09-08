@@ -2,17 +2,14 @@
 
 # Otto Zúñiga
 
-### Engineering Manager · Full-Stack Engineer
+### Full-Stack Engineer · Lead Software Engineer
 
-**16+ years building production systems · Leading teams of up to 11 engineers**
+**16+ years building and scaling production systems · Python · TypeScript · AWS**
 
 📍 Esparza, Puntarenas, Costa Rica &nbsp;·&nbsp; 🌎 Remote worldwide &nbsp;·&nbsp; 🗣️ Spanish (native) / English (fluent)
 
 <a href="https://www.linkedin.com/in/ottozuniga">
   <img src="https://img.shields.io/badge/LinkedIn-ottozuniga-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://www.softcori.com">
-  <img src="https://img.shields.io/badge/Softcori-softcori.com-1F2937?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Softcori" />
 </a>
 <a href="mailto:otto@ottozuniga.com">
   <img src="https://img.shields.io/badge/Email-otto%40ottozuniga.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" />
@@ -27,21 +24,19 @@
 
 ## About
 
-I build backend systems that have to keep running — integration platforms, async pipelines, multi-tenant SaaS — and I stay hands-on while leading the teams that build them.
+I build backend systems that have to keep running — integration platforms, async pipelines, multi-tenant SaaS — and I've been hands-on in the code every year of it.
 
 For six and a half years I led the Compliance Data Integrations team at **Thoropass**, growing it from a handful of connections into a platform serving **180+ integrations and 10,000+ customer connection accounts, syncing daily with zero-downtime operations**. Getting there meant real architecture work: Celery and RabbitMQ with dedicated queues per workload, tuned concurrency, message prioritization, throttling, retries, and bulk operations — plus the observability to know when any of it drifted.
 
 My depth is **Python/Django** on the backend and **React/Next.js + TypeScript** on the frontend, on **AWS** and **PostgreSQL**. I care a lot about the parts that aren't glamorous: test coverage, code standards, security, and data isolation done properly.
 
-I've spent most of my career at startups as they scaled, moving from developer to the person leading the team — while still writing code every day.
+I've spent most of my career at startups as they scaled — taking technical ownership of the hardest parts of the system, setting the standards the team builds to, and mentoring the engineers around me, while still writing code every day.
 
 ---
 
 ## What I'm building
 
-**[Softcori](https://www.softcori.com)** — my software studio in Costa Rica. Custom web applications, automation and integrations for local businesses.
-
-**[Goki](https://www.softcori.com)** (formerly GestionCR) — a multi-tenant ERP and payroll SaaS for small businesses, built end-to-end from database to deployment. Django + DRF with JWT auth and OpenAPI docs, PostgreSQL with Row-Level Security for tenant isolation, Celery + Celery Beat for scheduled and async work, Redis caching, Docker/Nginx/Gunicorn on AWS. Frontend is Next.js 15 (App Router) with TypeScript, MUI and Tailwind. Tested with pytest and Playwright, shipped through GitHub Actions.
+**Goki** (formerly GestionCR) — a multi-tenant ERP and payroll SaaS for small businesses, built end-to-end from database to deployment. Django + DRF with JWT auth and OpenAPI docs, PostgreSQL with Row-Level Security for tenant isolation, Celery + Celery Beat for scheduled and async work, Redis caching, Docker/Nginx/Gunicorn on AWS. Frontend is Next.js 15 (App Router) with TypeScript, MUI and Tailwind. Tested with pytest and Playwright, shipped through GitHub Actions.
 
 **Hooky** — a Slack application built with one other developer as a two-person startup. I owned the Python backend and every flow that touched the Slack API.
 
@@ -72,6 +67,7 @@ I've spent most of my career at startups as they scaled, moving from developer t
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![RLS](https://img.shields.io/badge/Row--Level_Security-31648C?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **Cloud & DevOps**
 
@@ -94,6 +90,7 @@ I've spent most of my career at startups as they scaled, moving from developer t
 ![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_Servers-FastMCP-1F2937?style=for-the-badge)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![Spec-Driven Development](https://img.shields.io/badge/Spec--Driven_Development-4B5563?style=for-the-badge)
 
 **Testing & Quality**
 
@@ -106,9 +103,9 @@ I've spent most of my career at startups as they scaled, moving from developer t
 
 ## Selected Experience
 
-**Engineering Manager — [Thoropass](https://thoropass.com)** · Remote (New York City) · 2020 – 2026
+**Lead Software Engineer — [Thoropass](https://thoropass.com)** · Remote (New York City) · 2020 – 2026
 
-Led the Compliance Data Integrations team. Designed and scaled the integration platform to 180+ integrations and 10,000+ customer connection accounts running daily on Celery + RabbitMQ. Managed up to 11 engineers — one of the largest teams at the company — while staying a hands-on full-stack contributor. Led the team's AI modernization: an intelligent database monitoring system for error detection and remediation, and custom MCP servers that let AI assistants pull customer audit information directly.
+Led the Compliance Data Integrations team. Designed and scaled the integration platform to 180+ integrations and 10,000+ customer connection accounts running daily on Celery + RabbitMQ. Set the platform's technical direction and established the development standards, CI/CD pipelines and code review practices the team worked to, as a hands-on full-stack contributor throughout. Led the team's AI modernization: an intelligent database monitoring system for error detection and remediation, and custom MCP servers that let AI assistants pull customer audit information directly.
 
 **Team Leader & Senior Software Developer — Snap Technology, SRL** · Alajuela, Costa Rica · 2015 – 2020
 
