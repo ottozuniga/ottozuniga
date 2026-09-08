@@ -4,7 +4,7 @@
 
 ### Lead Software Engineer · Full-Stack Engineer
 
-**Building and scaling production systems · Python · React · TypeScript · AWS**
+**Python · Django · React · Next.js · TypeScript · AWS**
 
 📍 Esparza, Puntarenas, Costa Rica &nbsp;·&nbsp; 🌎 Remote worldwide &nbsp;·&nbsp; 🗣️ Spanish (native) / English (fluent)
 
@@ -22,29 +22,21 @@
 
 ---
 
-## About
+## 👨‍💻 About Me
 
-Most of my work is backend: integration platforms, async job pipelines, and multi-tenant SaaS. The kind of systems that run all day, every day, where a quiet failure costs a customer real money. I've stayed hands-on in the code every year of my career.
+Backend-focused full-stack engineer working mainly in Python/Django and React/Next.js.
 
-For six and a half years I led the Compliance Data Integrations team at Thoropass. We started with a handful of customer connections and grew into a platform running **180+ integrations and over 10,000 customer connection accounts**, syncing daily with zero downtime. Getting there took real architecture work: Celery and RabbitMQ with dedicated queues per workload, tuned concurrency, message prioritization, throttling, retries, and bulk operations, plus enough observability to catch it when something drifted.
+I build integration platforms, async job pipelines and multi-tenant SaaS on AWS.
 
-My depth is **Python and Django** on the backend, **React, Next.js and TypeScript** on the frontend, running on **AWS** and **PostgreSQL**. I care about the parts that aren't glamorous: test coverage, code standards, security, and doing data isolation properly.
+Most recently I led the Compliance Data Integrations team at Thoropass, running a platform of 180+ integrations and over 10,000 customer connection accounts syncing daily.
 
-I've spent most of my career at startups while they scaled. I like owning the hardest parts of a system, setting the standards the team builds to, and mentoring the engineers around me, while still writing code every day.
-
----
-
-## What I'm building
-
-**Goki** (formerly GestionCR) is a multi-tenant ERP and payroll SaaS for small businesses. I built it end to end, from database to deployment. Django and DRF with JWT auth and OpenAPI docs, PostgreSQL with Row-Level Security for tenant isolation, Celery and Celery Beat for scheduled and async work, Redis caching, and Docker, Nginx and Gunicorn on AWS. The frontend is Next.js 15 with the App Router, TypeScript, MUI and Tailwind. Tested with pytest and Playwright, shipped through GitHub Actions.
-
-**Hooky** was a Slack application I built with one other developer at a two-person startup. I owned the Python backend and every flow that connected through the Slack API.
+Currently building Goki, a multi-tenant ERP and payroll SaaS.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-**Backend**
+### Backend
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
@@ -53,23 +45,24 @@ I've spent most of my career at startups while they scaled. I like owning the ha
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-**Frontend**
+### Frontend
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![MUI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![SWR](https://img.shields.io/badge/SWR-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-**Data & Messaging**
+### Databases & Messaging
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![RLS](https://img.shields.io/badge/Row--Level_Security-31648C?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![RLS](https://img.shields.io/badge/Row--Level_Security-31648C?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Cloud & DevOps**
+### Cloud & DevOps
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -78,20 +71,22 @@ I've spent most of my career at startups while they scaled. I like owning the ha
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
 
-**APIs & Integrations**
+AWS services: Lambda · Amplify · S3 · Cognito · CloudWatch · Secrets Manager · SNS · SES · IAM
+
+### APIs & Integrations
 
 ![REST](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
 ![Unified APIs](https://img.shields.io/badge/Unified_APIs-Truto_·_Finch_·_Leen-4B5563?style=for-the-badge)
 
-**AI & Tooling**
+### AI & Tooling
 
 ![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_Servers-FastMCP-1F2937?style=for-the-badge)
 ![Spec-Driven Development](https://img.shields.io/badge/Spec--Driven_Development-4B5563?style=for-the-badge)
 
-**Testing & Quality**
+### Testing & Quality
 
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
@@ -100,32 +95,50 @@ I've spent most of my career at startups while they scaled. I like owning the ha
 
 ---
 
-## Selected Experience
+## 🏛️ Engineering Focus
 
-**Lead Software Engineer, Thoropass** · Remote (New York City) · 2020 - 2026
-
-Led the Compliance Data Integrations team. Designed and scaled the integration platform to 180+ integrations and over 10,000 customer connection accounts running daily on Celery and RabbitMQ. Set the platform's technical direction and established the development standards, CI/CD pipelines and code review practices the team worked to, staying a hands-on full-stack contributor throughout. Led the team's AI modernization: an intelligent database monitoring system for error detection and remediation, and custom MCP servers that let AI assistants pull customer audit information directly.
-
-**Team Leader and Senior Software Developer, Snap Technology, SRL** · Alajuela, Costa Rica · 2015 - 2020
-
-Led full-stack development across multiple projects in Java, React and Node.js. My last project was the merchant platform, where I owned the API surface for the web application, ran external penetration testing, and built out logging and monitoring. Defined technical strategy, enforced code quality standards, and mentored junior engineers.
-
-**Backend Developer, Hooky** · Two-person startup
-
-Built a Slack application end to end with one other developer. Owned the Python backend and every feature and flow connecting through the Slack API.
+- Async task processing and distributed job queues at scale
+- Third-party integrations and Unified API providers
+- Multi-tenant architecture and Row-Level Security
+- REST API design and OpenAPI contracts
+- Spec-Driven Development, TDD and unit testing
+- CI/CD pipelines and production deployment
+- AI-assisted development, MCP servers and agent workflows
 
 ---
 
-## Education & Certifications
+## 🚀 What I'm Building
+
+### 🏢 Goki (formerly GestionCR)
+
+Multi-tenant ERP and payroll SaaS for small businesses, built end to end from database to deployment.
+
+- **Backend:** Django · Django REST Framework · JWT auth (SimpleJWT) · OpenAPI docs (drf-yasg)
+- **Data:** PostgreSQL with Row-Level Security for tenant isolation · Redis caching · Celery and Celery Beat
+- **Infra:** Docker and Docker Compose · Nginx · Gunicorn · AWS S3 · Secrets Manager
+- **Frontend:** Next.js 15 (App Router) · TypeScript · Material UI · Tailwind CSS · React Hook Form + Zod · SWR
+- **Quality:** pytest · pytest-django · factory-boy · Playwright E2E · GitHub Actions CI/CD
+
+### 💬 Hooky
+
+Slack application built with one other developer at a two-person startup. Owned the Python backend and every flow connecting through the Slack API.
+
+---
+
+## 💼 Experience
+
+**Thoropass** · Lead Software Engineer · Remote (New York City) · 2020 - 2026
+
+Compliance Data Integrations team. Built and scaled an integration platform to 180+ integrations and over 10,000 customer connection accounts syncing daily on Celery and RabbitMQ, with dedicated queues per workload, tuned concurrency, message prioritization, throttling and retries. Integrated Unified API providers (Truto, Finch, Leen). Built custom MCP servers and an automated database monitoring system for error detection and remediation. Set development standards, CI/CD pipelines and code review practices.
+
+**Snap Technology, SRL** · Team Leader and Senior Software Developer · Alajuela, Costa Rica · 2015 - 2020
+
+Full-stack development in Java, React and Node.js. On the merchant platform, owned the API surface for the web application, ran external penetration testing, and built out logging and monitoring.
+
+---
+
+## 🎓 Education & Certifications
 
 - **B.Sc. Computer Engineering**, 2004 - 2008
-- **Advanced Degree, Software Development**, focused on software engineering methodologies and architecture
+- **Advanced Degree, Software Development**, software engineering methodologies and architecture
 - **Oracle Certified Associate, Java SE 8 Programmer**, 2020
-
----
-
-<div align="center">
-
-### Understand first. Design with intention. Build to last.
-
-</div>
