@@ -2,11 +2,11 @@
 
 # Otto Zúñiga
 
-### Lead Software Engineer · Full-Stack Engineer
+### AI Engineer · Lead Software Engineer
 
-**Python · Django · React · Next.js · TypeScript · AWS**
+**Python · Java · TypeScript · Django · React · Next.js · AWS**
 
-📍 Esparza, Puntarenas, Costa Rica &nbsp;·&nbsp; 🌎 Remote worldwide &nbsp;·&nbsp; 🗣️ Spanish (native) / English (fluent)
+📍 Costa Rica &nbsp;·&nbsp; 🌎 Remote (US time zones) &nbsp;·&nbsp; 🗣️ Spanish (native) / English (fluent)
 
 <a href="https://www.linkedin.com/in/ottozuniga">
   <img src="https://img.shields.io/badge/LinkedIn-ottozuniga-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -17,6 +17,9 @@
 <a href="tel:+50688942873">
   <img src="https://img.shields.io/badge/Phone-%2B506%208894%202873-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" />
 </a>
+<a href="./Otto_Zuniga_Resume.pdf">
+  <img src="https://img.shields.io/badge/Resume-PDF-4B5563?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume (PDF)" />
+</a>
 
 </div>
 
@@ -24,13 +27,13 @@
 
 ## 👨‍💻 About Me
 
-Backend-focused full-stack engineer working mainly in Python/Django and React/Next.js.
+AI-focused software engineer and full-stack developer working mainly in Python/Django, Java and React/Next.js. I use Claude Code and agentic workflows to plan, implement, test and maintain software.
 
 I build integration platforms, async job pipelines and multi-tenant SaaS on AWS.
 
 Most recently I led the Compliance Data Integrations team at Thoropass, running a platform of 180+ integrations and over 10,000 customer connection accounts syncing daily.
 
-Currently building Goki, a multi-tenant ERP and payroll SaaS.
+Currently building Goki, a multi-tenant ERP and payroll SaaS, with AI-assisted development.
 
 ---
 
@@ -41,6 +44,7 @@ Currently building Goki, a multi-tenant ERP and payroll SaaS.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/Django_REST-A30000?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -48,6 +52,7 @@ Currently building Goki, a multi-tenant ERP and payroll SaaS.
 ### Frontend
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![MUI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
@@ -82,8 +87,10 @@ AWS services: Lambda · Amplify · S3 · Cognito · CloudWatch · Secrets Manage
 
 ### AI & Tooling
 
-![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic_Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP_Servers-FastMCP-1F2937?style=for-the-badge)
+![Agent Workflows](https://img.shields.io/badge/Agent_Workflows_·_Subagents-4B5563?style=for-the-badge)
 ![Spec-Driven Development](https://img.shields.io/badge/Spec--Driven_Development-4B5563?style=for-the-badge)
 
 ### Testing & Quality
@@ -104,20 +111,24 @@ AWS services: Lambda · Amplify · S3 · Cognito · CloudWatch · Secrets Manage
 - Spec-Driven Development, TDD and unit testing
 - CI/CD pipelines and production deployment
 - AI-assisted development, MCP servers and agent workflows
+- Software architecture, technical mentorship and engineering standards
 
 ---
 
 ## 🚀 What I'm Building
 
-### 🏢 Goki (formerly GestionCR)
+### 🏢 Goki (formerly GestionCR) · Dec 2025 - Present
 
-Multi-tenant ERP and payroll SaaS for small businesses, built end to end from database to deployment.
+Multi-tenant ERP and payroll SaaS for small businesses, built end to end from database to deployment using AI-assisted development.
 
 - **Backend:** Django · Django REST Framework · JWT auth (SimpleJWT) · OpenAPI docs (drf-yasg)
+- **AI:** Anthropic Claude API · MCP server development with FastMCP
+- **Security:** Audit logging · Google OAuth · cryptography · multi-tenant permissions
 - **Data:** PostgreSQL with Row-Level Security for tenant isolation · Redis caching · Celery and Celery Beat
 - **Infra:** Docker and Docker Compose · Nginx · Gunicorn · AWS S3 · Secrets Manager
-- **Frontend:** Next.js 15 (App Router) · TypeScript · Material UI · Tailwind CSS · React Hook Form + Zod · SWR
-- **Quality:** pytest · pytest-django · factory-boy · Playwright E2E · GitHub Actions CI/CD
+- **Frontend:** Next.js 15 (App Router) · TypeScript · Material UI · Tailwind CSS · React Hook Form + Zod · SWR · Axios · NextAuth.js
+- **Quality:** pytest · pytest-django · factory-boy · coverage · Playwright E2E · GitHub Actions CI/CD
+- **Workflow:** Claude Code · Claude Design · agentic workflows, skills and subagents
 
 ### 💬 Hooky
 
@@ -127,18 +138,27 @@ Slack application built with one other developer at a two-person startup. Owned 
 
 ## 💼 Experience
 
-**Thoropass** · Lead Software Engineer · Remote (New York City) · 2020 - 2026
+**Thoropass (formerly Laika)** · Lead Software Engineer · Remote · Jan 2020 - Jul 2026
 
-Compliance Data Integrations team. Built and scaled an integration platform to 180+ integrations and over 10,000 customer connection accounts syncing daily on Celery and RabbitMQ, with dedicated queues per workload, tuned concurrency, message prioritization, throttling and retries. Integrated Unified API providers (Truto, Finch, Leen). Built custom MCP servers and an automated database monitoring system for error detection and remediation. Set development standards, CI/CD pipelines and code review practices.
+Led the Compliance Data Integrations team, collecting audit evidence for compliance. Built and scaled an integration platform to 180+ integrations and over 10,000 customer connection accounts syncing daily on Celery and RabbitMQ, with dedicated queues per workload, tuned concurrency, message prioritization, throttling and retries. Built integrations over REST and GraphQL, including through Unified API providers (Truto, Finch, Leen). Worked hands-on across the stack in Python, Django and React. Led AI modernization initiatives, including an intelligent database monitoring system for error detection and remediation, and custom MCP servers that let AI assistants retrieve customer audit information. Set development standards, CI/CD pipelines, code quality practices and technical mentorship.
 
-**Snap Technology, SRL** · Team Leader and Senior Software Developer · Alajuela, Costa Rica · 2015 - 2020
+**Snap Technology, SRL** · Team Leader and Senior Software Developer · Alajuela, Costa Rica · Sep 2015 - Jan 2020
 
-Full-stack development in Java, React and Node.js. On the merchant platform, owned the API surface for the web application, ran external penetration testing, and built out logging and monitoring.
+Led full-stack development across multiple projects in Java, JavaScript, React and Node.js, contributing to architecture decisions and mentoring junior engineers. On the merchant platform, owned the API surface for the web application, ran external penetration testing, and built out logging and monitoring.
+
+**Accenture** · Software Developer Specialist · Costa Rica · Oct 2013 - Sep 2015
+
+Backend solutions and enterprise applications in Java.
+
+**Credomatic** · Senior Java Developer · Costa Rica · Dec 2008 - Oct 2013
+
+Enterprise applications in Java, covering backend development, application architecture, databases and messaging.
 
 ---
 
 ## 🎓 Education & Certifications
 
-- **B.Sc. Computer Engineering**, 2004 - 2008
-- **Advanced Degree, Software Development**, software engineering methodologies and architecture
-- **Oracle Certified Associate, Java SE 8 Programmer**, 2020
+- **B.Sc. Computer Engineering**, Universidad Latinoamericana de Ciencia y Tecnología (ULACIT)
+- **Emphasis in Software Development**, Universidad Latinoamericana de Ciencia y Tecnología (ULACIT)
+- **Business Administration Technician**, Instituto Tecnológico de Costa Rica (TEC), 2009
+- **Oracle Certified Associate, Java SE 8 Programmer**, Feb 2020
